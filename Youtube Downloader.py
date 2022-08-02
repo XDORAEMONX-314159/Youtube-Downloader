@@ -14,7 +14,7 @@ def download():
 window = tk.Tk()
 window.title("Youtube Downloader")
 window.geometry("600x600+420+150")
-window.iconphoto(True, tk.PhotoImage(file='E:\python\youtube icon.png'))
+window.iconphoto(True, tk.PhotoImage(file='write the photo path here'))
 
 label = tk.Label(window, text= 'Thanks for using Youtube Downloader')
 label.pack()
