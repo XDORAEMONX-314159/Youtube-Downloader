@@ -7,7 +7,7 @@ def download():
     for stream in my_video.streams:
         print(stream)
     my_video = my_video.streams.get_highest_resolution()
-    my_video.download(output_path="E:\python\youtube download")    
+    my_video.download(output_path="write the path here")    
     
     tkinter.messagebox.showinfo(title= 'Download complete', message = "Download complete")
     
